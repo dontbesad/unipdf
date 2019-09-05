@@ -11,10 +11,10 @@ import (
 	"io"
 	"runtime/debug"
 
-	"github.com/unidoc/unipdf/v3/common"
+	"github.com/dontbesad/unipdf/common"
 
-	"github.com/unidoc/unipdf/v3/internal/jbig2/reader"
-	"github.com/unidoc/unipdf/v3/internal/jbig2/segments"
+	"github.com/dontbesad/unipdf/internal/jbig2/reader"
+	"github.com/dontbesad/unipdf/internal/jbig2/segments"
 )
 
 // fileHeaderID first byte slices of the jbig2 encoded file, see D.4.1.

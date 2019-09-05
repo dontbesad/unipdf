@@ -10,8 +10,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/unidoc/unipdf/v3/core"
-	"github.com/unidoc/unipdf/v3/model"
+	"github.com/dontbesad/unipdf/core"
+	"github.com/dontbesad/unipdf/model"
 )
 
 // FieldData represents form field data loaded from JSON file.

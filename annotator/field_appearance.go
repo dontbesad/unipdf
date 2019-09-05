@@ -11,10 +11,10 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/unidoc/unipdf/v3/common"
-	"github.com/unidoc/unipdf/v3/contentstream"
-	"github.com/unidoc/unipdf/v3/core"
-	"github.com/unidoc/unipdf/v3/model"
+	"github.com/dontbesad/unipdf/common"
+	"github.com/dontbesad/unipdf/contentstream"
+	"github.com/dontbesad/unipdf/core"
+	"github.com/dontbesad/unipdf/model"
 )
 
 // FieldAppearance implements interface model.FieldAppearanceGenerator and generates appearance streams

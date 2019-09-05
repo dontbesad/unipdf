@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/unidoc/unipdf/v3/common"
-	"github.com/unidoc/unipdf/v3/contentstream"
-	"github.com/unidoc/unipdf/v3/core"
-	"github.com/unidoc/unipdf/v3/model"
+	"github.com/dontbesad/unipdf/common"
+	"github.com/dontbesad/unipdf/contentstream"
+	"github.com/dontbesad/unipdf/core"
+	"github.com/dontbesad/unipdf/model"
 )
 
 // Paragraph represents text drawn with a specified font and can wrap across lines and pages.
@@ -502,7 +502,8 @@ func drawParagraphOnBlock(blk *Block, p *Paragraph, ctx DrawContext) (DrawContex
 				if !ok {
 					err := fmt.Errorf("unsupported rune in text encoding: %#x (%c)", r, r)
 					common.Log.Debug("%s", err)
-					return ctx, err
+					fmt.Println(err)
+					//return ctx, err
 				}
 				// TODO(dennwc): this should not be done manually; encoder should do this
 				if isCID {

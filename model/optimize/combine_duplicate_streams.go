@@ -8,7 +8,7 @@ package optimize
 import (
 	"crypto/md5"
 
-	"github.com/unidoc/unipdf/v3/core"
+	"github.com/dontbesad/unipdf/core"
 )
 
 // CombineDuplicateStreams combines duplicated streams by its data hash.

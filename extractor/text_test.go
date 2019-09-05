@@ -20,9 +20,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/unidoc/unipdf/v3/common"
-	"github.com/unidoc/unipdf/v3/creator"
-	"github.com/unidoc/unipdf/v3/model"
+	"github.com/dontbesad/unipdf/common"
+	"github.com/dontbesad/unipdf/creator"
+	"github.com/dontbesad/unipdf/model"
 	"golang.org/x/text/unicode/norm"
 )
 

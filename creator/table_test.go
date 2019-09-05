@@ -10,7 +10,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/unidoc/unipdf/v3/model"
+	"github.com/dontbesad/unipdf/model"
 )
 
 var (

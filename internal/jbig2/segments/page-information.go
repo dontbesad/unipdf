@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/unidoc/unipdf/v3/common"
+	"github.com/dontbesad/unipdf/common"
 
-	"github.com/unidoc/unipdf/v3/internal/jbig2/bitmap"
-	"github.com/unidoc/unipdf/v3/internal/jbig2/reader"
+	"github.com/dontbesad/unipdf/internal/jbig2/bitmap"
+	"github.com/dontbesad/unipdf/internal/jbig2/reader"
 )
 
 // PageInformationSegment represents the segment type Page Information 7.4.8.

@@ -13,13 +13,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/unidoc/unipdf/v3/common"
-	"github.com/unidoc/unipdf/v3/core"
-	"github.com/unidoc/unipdf/v3/model"
+	"github.com/dontbesad/unipdf/common"
+	"github.com/dontbesad/unipdf/core"
+	"github.com/dontbesad/unipdf/model"
 
-	"github.com/unidoc/unipdf/v3/internal/testutils"
-	"github.com/unidoc/unipdf/v3/internal/textencoding"
-	"github.com/unidoc/unipdf/v3/model/internal/fonts"
+	"github.com/dontbesad/unipdf/internal/testutils"
+	"github.com/dontbesad/unipdf/internal/textencoding"
+	"github.com/dontbesad/unipdf/model/internal/fonts"
 )
 
 func init() {

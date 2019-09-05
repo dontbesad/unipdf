@@ -11,12 +11,12 @@ import (
 	"math"
 	"strings"
 
-	"github.com/unidoc/unipdf/v3/common"
+	"github.com/dontbesad/unipdf/common"
 
-	"github.com/unidoc/unipdf/v3/internal/jbig2/bitmap"
-	"github.com/unidoc/unipdf/v3/internal/jbig2/decoder/arithmetic"
-	"github.com/unidoc/unipdf/v3/internal/jbig2/decoder/huffman"
-	"github.com/unidoc/unipdf/v3/internal/jbig2/reader"
+	"github.com/dontbesad/unipdf/internal/jbig2/bitmap"
+	"github.com/dontbesad/unipdf/internal/jbig2/decoder/arithmetic"
+	"github.com/dontbesad/unipdf/internal/jbig2/decoder/huffman"
+	"github.com/dontbesad/unipdf/internal/jbig2/reader"
 )
 
 // TextRegion is the model for the jbig2 text region segment - see 7.4.1.
